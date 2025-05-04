@@ -62,14 +62,14 @@ INSERT INTO Department (name) VALUES
 
 -- Doctors
 INSERT INTO Doctor (name, email, specialization, department_id) VALUES
-('Dr. Alice Smith', 'alice@clinic.com', 'Cardiologist', 1),
-('Dr. Bob Jones', 'bob@clinic.com', 'Dermatologist', 2),
-('Dr. Charlie Day', 'charlie@clinic.com', 'Neurologist', 3);
+('Dr. Alice Smith', 'victorcarlet00@.com', 'Cardiologist', 1),
+('Dr. viky Jones', 'brian@.com', 'Dermatologist', 2),
+('Dr. Charlie ', 'charlie@.com', 'Neurologist', 3);
 
 -- Patients
 INSERT INTO Patient (name, email, phone, date_of_birth) VALUES
-('John Doe', 'john@example.com', '1234567890', '1985-04-12'),
-('Jane Roe', 'jane@example.com', '0987654321', '1990-06-25');
+('mecha', 'mecha@email.com', '0748791715', '1985-04-12'),
+('victor', 'victor@gmail.com', '07654653', '1990-06-25');
 
 -- Patient-Doctor Relationships
 INSERT INTO PatientDoctor (patient_id, doctor_id) VALUES
